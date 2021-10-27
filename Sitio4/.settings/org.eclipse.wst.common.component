@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="Sitio4">
+        <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+        <wb-resource deploy-path="/WEB-INF/classes/" source-path="/ImportedClasses"/>
+        <dependent-module archiveName="qrgen-1.2.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/qrgen-1.2/qrgen-1.2">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="zxing-core-1.7.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/zxing-core-1.7/zxing-core-1.7">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="zxing-j2se-1.7.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/zxing-j2se-1.7/zxing-j2se-1.7">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="iText-2.1.5.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/iText-2.1.5/iText-2.1.5">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="run.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/run/run">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <property name="context-root" value="Sitio4"/>
+        <property name="java-output-path" value="/Sitio4/build/classes"/>
+    </wb-module>
+</project-modules>
